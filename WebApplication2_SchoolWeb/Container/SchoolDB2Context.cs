@@ -11,7 +11,7 @@ namespace WebApplication2_SchoolWeb.Container
 
         }
 
-        public virtual Student? students { get; set; }
-        public virtual Department? departments { get; set; }
+        public virtual DbSet<Student>? students { get; set; }
+        public virtual DbSet<Department>? departments { get; set; }
     }
 }
